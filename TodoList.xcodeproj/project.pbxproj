@@ -30,6 +30,7 @@
 		B2EAA14A2C08EEFA00A0C1DD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EAA1492C08EEFA00A0C1DD /* MainView.swift */; };
 		B2EAA14C2C08EEFA00A0C1DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EAA14B2C08EEFA00A0C1DD /* Assets.xcassets */; };
 		B2EAA14F2C08EEFA00A0C1DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EAA14E2C08EEFA00A0C1DD /* Preview Assets.xcassets */; };
+		B2EE2CE42C2B71A900AF3547 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EE2CE32C2B71A900AF3547 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		B2EAA1492C08EEFA00A0C1DD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B2EAA14B2C08EEFA00A0C1DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2EAA14E2C08EEFA00A0C1DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2EE2CE32C2B71A900AF3547 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				B2698E0F2C08F63F00E96520 /* LoginView.swift */,
 				B2698E112C08F64700E96520 /* RegisterView.swift */,
 				B2698E132C08F67200E96520 /* ToDoListItemView.swift */,
+				B2EE2CE32C2B71A900AF3547 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2698E102C08F63F00E96520 /* LoginView.swift in Sources */,
+				B2EE2CE42C2B71A900AF3547 /* HeaderView.swift in Sources */,
 				B2EAA14A2C08EEFA00A0C1DD /* MainView.swift in Sources */,
 				B2698E242C08F7A500E96520 /* RegisterViewViewModel.swift in Sources */,
 				B2698E1A2C08F76E00E96520 /* MainViewViewModel.swift in Sources */,
