@@ -17,18 +17,18 @@ struct HeaderView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 0)
-                .foregroundColor(background)
+                .foregroundStyle(background)
                 .rotationEffect(Angle(degrees: angle))
             
             VStack {
                 Text(title)
                     .font(.system(size: 50))
-                    .foregroundColor(.white)
+                    .foregroundStyle(.white)
                     .bold()
                 
                 Text(subtitle)
                     .font(.system(size: 30))
-                    .foregroundColor(.white)
+                    .foregroundStyle(.white)
             }
             .padding(.top, 80)
         }
